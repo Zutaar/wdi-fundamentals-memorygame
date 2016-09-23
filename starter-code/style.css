@@ -1,3 +1,72 @@
-/* This is a multi-line
-comment. Add your CSS code
-from Unit 1 - 5 below  */
+h1 {
+	color:rgb(2,132,130);
+
+	text-align: center;
+}
+
+h2 {
+	color:#ffd700;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+/* From http://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black */
+
+nav {
+    float: left;
+    width:100%;
+    margin: 0 auto;
+    background-color: #ffbf00;;
+}
+
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ee5f3c;
+}
+
+
+header {
+	clear:both;
+}
+
+footer {
+	background: #808080;
+}
+
+.board {
+	height:50%;
+	width:80%;
+	display:inline-block;
+	margin:0 auto;
+}
+
+.card {
+	height:200px;
+	width:150px;
+	border:1px solid #000000;
+	background-color:rgb(255,255,0);
+	border-radius:10px;
+	margin:8%;
+	float:left;
+}
+.name {
+	color:#ff0000;
+}
